@@ -1,0 +1,19 @@
+body{
+	width: 100%;
+	height: 100vh;
+	background-color: white;
+	margin: 0;
+	background-color: #1b1b32;
+}
+
+h1, p{
+	font-family: georgia;
+}
+
+label{
+	font-family: georgia;
+}
+
+label{
+	display: block;
+}

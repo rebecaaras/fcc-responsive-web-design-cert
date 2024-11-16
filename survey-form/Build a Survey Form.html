@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lan="en">
+<head>
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<title>Book Taste</title>
+	<link ref="stylesheet" href="styles.css"/>
+</head>
+
+<h1 id="title">Favourite book genre</h1>
+<p id="description">This is a short survey to know more about your taste in books.</p>
+<form id="survey-form">
+  <fieldset>
+    <legend>Personal Info</legend>
+	<label id="name-label"> Name:
+		<input id="name" type="text" placeholder="Type your name here..." required/>
+	</label>
+	<label id="email-label"> E-mail:
+		<input id="email" type="email" placeholder="Type your e-mail here..." required/>
+	</label>
+  </fieldset>
+
+  <fieldset>
+    <legend>Book Taste!</legend>
+	<label id="number-label"> How many books did you read in the last 12 months?:
+		<input id="number" type="number" placeholder="Number of books." min="0" max="100"/>
+	</label>
+  
+  <legend> Which do you prefer?
+    <label><input id="fiction" type="radio" name="book-type" value="fiction"/>Fiction</label>
+    <label><input id="non-fiction" type="radio" name="book-type" value="non-fiction"/>Non-Fiction</label>
+  </legend>
+
+  <label> What are your favourite book genres?
+    <label><input id="Mystery" type="checkbox" value="Mystery"/>Mystery</label>
+    <label><input id="Thriller" type="checkbox" value="Thriller"/>Thriller</label>
+    <label><input id="Horror" type="checkbox" value="Horror"/>Horror</label>
+    <label><input id="Historical" type="checkbox" value="Historical"/>Historical</label>
+    <label><input id="Literary" type="checkbox" value="Literary">Literary</label>
+    <label><input id="Western" type="checkbox" value="Western"/>Western</label>
+    <label><input id="Bildungsroman" type="checkbox" value="Bildungsroman"/>Bildungsroman</label>
+    <label><input id="Speculative-Fiction" type="checkbox" value="Speculative-Fiction"/>Speculative Fiction</label>
+    <label><input id="Science-Fiction" type="checkbox" value="Science-Fiction"/>Science Fiction</label>
+    <label><input id="Dystopian" type="checkbox" value="Dystopian"/>Dystopian</label>
+    <label><input id="Magical" type="checkbox" value="Magical"/>Magical</label>
+    <label><input id="Romance" type="checkbox" value="Romance"/>Romance</label>
+    <label><input id="Realist-Literature" type="checkbox"  value="Realist-Literature"/>Realist Literature</label>
+    <label><input id="Other" type="checkbox" value="Other"/> Other </label>
+  </label>
+  
+  <label> Which are your favourite?
+	<textarea id="" name="" placeholder="Tell us some of your favourite books..."></textarea>
+  </label>
+</fieldset>
+<fieldset>
+  <legend>Let's be friends :) </legend>
+   <label for="dropdown"> Where did you hear about us?
+    <select id="dropdown"
+    	<option value="1">(select one)</option>
+    	<option value="2">Facebook</option>
+    	<option value="3">YouTube</option>
+    	<option value="4">Instagram</option>
+    	<option value="5">Friends indication</option>
+    	<option value="6">Other</option> 
+    <select/>
+  </label>
+
+  <label>
+    Would you like to join to our e-mail list?
+    </label>
+    <label><input id="yes" type="checkbox" value="yes"/>Yes</label>
+    <label><input id="yes" type="checkbox" value="yes"/>No</label>
+  </label>
+  </fieldset>
+  
+  <input type="submit" id="submit" value="Submit"/>  
+  
+</form>
+
+
+
+</html>
